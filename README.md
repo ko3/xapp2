@@ -1,5 +1,14 @@
 # xapp2
 
+Run 'npm install' to get all the dependencies
+
+Go to the root and run 'npm start' to start the server, now go to http://localhost:8080/ to view the xapp2
+
+
+
+
+
+
 
 https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
 
