@@ -1,15 +1,15 @@
-var React = require('react');
-var ReactRouter = require('react-router-dom');
-var Router = ReactRouter.BrowserRouter;
-var Route = ReactRouter.Route;
-var Switch = ReactRouter.Switch;
-var Nav = require('./Nav');
-var Home = require('./Home');
-var Battle = require('./Battle');
-var Popular = require('./Popular');
-var Results = require('./Results');
-var Redirect = require('./Redirect');
-import ko3 from './ko3';
+import React from 'react'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+//import Router from 'ReactRouter.BrowserRouter'
+//import Route from 'ReactRouter.Route'
+//import Switch from 'ReactRouter.Switch'
+import Nav from './Nav.jsx'
+import Home from './Home.jsx'
+import Battle from './Battle.jsx'
+import Popular from './Popular.jsx'
+import Results from './Results.jsx'
+import Redirect from './Redirect.jsx'
+import ko3 from './ko3.jsx'
 
 
 class App extends React.Component {
@@ -31,7 +31,6 @@ class App extends React.Component {
           </Switch>
         </div>
       </Router>
-
     )
   }
 }
